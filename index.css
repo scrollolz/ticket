@@ -1,13 +1,44 @@
 
 #clock {
     font-weight: bold;
+    font-size:50px;
+    
 }
 
+#metroTransit {
+    font-size:22px;
+    font-weight:bold;
+}
+
+#title {
+    display:flex;
+    padding-top:40px;
+    flex-direction:column;
+    gap:2px;
+}
+
+#title p {
+    margin:0;
+}
+
+.ticketType {
+    display:flex;
+    gap:1px;
+}
 
 body {
   font-family: 'Arial', sans-serif;
+  color:rgb(79, 79, 79);
 }
 
-h1 {
-    font-size:32px;
+
+
+#ticketGif {
+    width:auto;
+    height:150px;
+    align-self: center;
+}
+
+#expiry {
+    font-weight:bold;
 }
